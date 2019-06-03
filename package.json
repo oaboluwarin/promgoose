@@ -4,8 +4,10 @@
   "description": "A CRUD API with mongoDB for persisting DATA",
   "main": "server.js",
   "scripts": {
-    "dev": "node server.js",
-    "test": "npm test"
+    "dev": "nodemon --exec babel-node src/server.js",
+    "test": "npm test",
+    "build": "babel src --out-dir dist",
+    "serve": "node dist/server.js"
   },
   "repository": {
     "type": "git",
@@ -26,5 +28,13 @@
   "dependencies": {
     "express": "^4.17.1",
     "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "eslint": "^5.16.0",
+    "nodemon": "^1.19.1"
   }
 }
