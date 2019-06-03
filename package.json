@@ -4,6 +4,7 @@
   "description": "A CRUD API with mongoDB for persisting DATA",
   "main": "server.js",
   "scripts": {
+    "dev": "node server.js",
     "test": "npm test"
   },
   "repository": {
