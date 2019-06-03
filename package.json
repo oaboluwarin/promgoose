@@ -1,0 +1,29 @@
+{
+  "name": "promgoose",
+  "version": "1.0.0",
+  "description": "A CRUD API with mongoDB for persisting DATA",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oaboluwarin/promgoose.git"
+  },
+  "keywords": [
+    "node",
+    "API",
+    "mongo",
+    "express"
+  ],
+  "author": "oaboluwarin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oaboluwarin/promgoose/issues"
+  },
+  "homepage": "https://github.com/oaboluwarin/promgoose#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.9.1"
+  }
+}
